@@ -21,6 +21,7 @@ class Solution:
             backtrack(r-1, c, index+1)
             backtrack(r, c+1, index+1)
             backtrack(r, c-1, index+1)
+            
             visited.remove((r,c))
         
         for r in range(ROWS):
